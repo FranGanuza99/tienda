@@ -7,3 +7,27 @@ img.logo {
     width: 85px;
 
 }
+
+.center-txt{
+  text-align: center;
+}
+
+.center{
+  margin: auto;
+}
+
+.center-sesion{
+    margin-top: 190px;
+
+}
+
+.center-sesion2{
+    margin-top: 345px;
+
+}
+
+
+hr.v{
+width: 1px;
+height: 500px;
+}
