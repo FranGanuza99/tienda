@@ -10,7 +10,7 @@
             <li><a href="#">Nuestra empresa</a></li>
             <li><a href="#">Noticias</a></li>
             <li><a href="#">Guia para comprar</a></li>
-            <li class="active"><a href="#">Iniciar sesión</a></li>
+            <li><a href="#">Iniciar sesión</a></li>
         </ul>
         
         </div>
