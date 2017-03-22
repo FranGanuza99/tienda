@@ -15,9 +15,7 @@
         <link type="text/css" rel="stylesheet" href="css/mystyle-sheet.css" media="screen,projection"/>
     </head>
     <body>
-        <!---->
-        
-        
+
         <!--Aqui se muestra el menu-->
         <?php
         include("inc/menu.php");
@@ -25,12 +23,13 @@
         
         <!--Aqui comienza la pagina-->
         <div class="container">
-            
-            <div class="card-panel hoverable">
+            <!--panel interno-->
+            <div class="card-panel">
                 <h3 class="center-txt">Contáctanos</h3>
                 <br>
-                
+                <!--inicia la primer fila-->
                 <div class="row">
+                    <!--primer columna-->
                     <div class="col s12 m6">
                         <h5>Ubicación:</h5>
                         <h6>Avenida Aguilares #218, Centro Urbano Libertad.</h6>
@@ -47,42 +46,42 @@
                             
                         </p>
                     </div>
+                    <!--segunda columna-->
                     <div class="col s12 m6">
                         <h5>Comunícate con nosotros</h5>
+                        <!--comienza el form-->
+                        <<!--nombre-->
                         <form action="">
                             <div class="input-field col s12 l6">
                                 <input type="text" id="first_name" class="validate">
                                 <label for="first_name">Nombre:</label>
                             </div>
+                            <!--apellido-->
                             <div class="input-field col s12 l6">
                                 <input type="text" id="last_name" class="validate">
                                 <label for="last_name">Apellido:</label>
                             </div>
+                            <!--correo-->
                             <div class="input-field col s12">
                                 <input type="email" id="email" class="validate">
                                 <label for="email" data-error="wrong" data-success="right">Correo electrónico</label>
                             </div>
+                            <!--mensaje-->
                             <div class="input-field col s12">
                                 <textarea id="textarea1" class="materialize-textarea"></textarea>
                                 <label for="textarea1">Mensaje</label>
                             </div>
                             <br>
                             <br>
+                            <!--botones-->
                             <div class="center">
-                                <a href="#" class="waves-effect waves-light btn-large green">Enviar</a>
-                                <a href="#" class="waves-effect waves-light btn-large red">Cancelar</a>
+                                <a href="#" class="waves-effect waves-light btn green">Enviar</a>
+                                <a href="#" class="waves-effect waves-light btn red">Cancelar</a>
                             </div>
-                            
-                            
-                        </form>
-                        
+                        </form>               
                     </div>
-
                 </div>
-            </div>
-            
-            
-            
+            </div>  
 
         </div>
         
@@ -90,7 +89,6 @@
         <?php
         include("inc/footer.php");
         ?>
-        
 
     </body>
 </html>
