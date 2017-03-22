@@ -31,3 +31,21 @@ hr.v{
 width: 1px;
 height: 500px;
 }
+
+.destacado {
+    margin: 0 auto;
+}
+
+.slides  {
+    height: 700px;
+}
+
+.slider  {
+    height: 700px;
+}
+
+#map {
+ height: 50%; 
+ width: 70%;
+ margin: auto;
+}

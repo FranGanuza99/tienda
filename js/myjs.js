@@ -20,6 +20,10 @@ $(document).ready(function(){
       $(".button-collapse").sideNav();
       $(".dropdown-button").dropdown();
       $('.parallax').parallax();
+      $('select').material_select();
+      $('.collapsible').collapsible();
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+      $('.collapsible').collapsible();
 });
 
 
@@ -27,7 +31,7 @@ $(document).ready(function(){
 
 
 function initMap() {
-      var myLatLng = {lat: 13.723079, lng: -89.2047473};
+      var myLatLng = {lat: 13.7055772, lng: -89.2129779};
 
       // Create a map object and specify the DOM element for display.
       var map = new google.maps.Map(document.getElementById('map'), {
